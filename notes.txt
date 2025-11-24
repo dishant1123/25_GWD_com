@@ -1,0 +1,32 @@
+c procedure  language .
+cpp ==> object oriented language. 
+
+=======================
+#include<conio.h>
+#include<stdio.h>
+void main()
+{
+    clrscr();
+    printf(); 
+    getch();
+}
+=========================
+#include<iostream>
+print  ===> cout 
+scanf ===> cin 
+
+========================= 
+#include<iostream>
+using namespace std;   ===> cin cout 
+
+int main()
+{
+    cout<<"hello world";
+}
+stdanrd lib  ===> cin cout  
+
+int main()
+{
+    std::cout<<"hello world";
+    std ::cout<<"ram";
+}
