@@ -1,6 +1,6 @@
 /*
 Write a C++ program to calculate the monthly gross pay, annual income, and income tax of an employee using the following rules: 
-
+ask user to enter the grade and  type  of  city  (Tier 1, Tier 2, Tier 3).
 1. Salary Components
 Gross Pay =
 Basic Pay + House Rent Allowance (HRA) + Dearness Allowance (DRA) + Other Allowances + Transport Allowance (TA) – Professional Tax – Provident Fund (PF)
