@@ -84,3 +84,9 @@ or
 index : 2 
 
 */
+
+// hw : remove  duplicate  element  from  array 
+/*
+input  : a[7] ={1,1,2,3,3,4,5}
+output  :a[5] ={1,2,3,4,5}
+*/
