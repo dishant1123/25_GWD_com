@@ -35,7 +35,7 @@ after  inserting new element in  array  :
 output  : {1,2,89,3,4,5}
 
 */
-
+/*
 #include<iostream> 
 using namespace std;
 int main()
@@ -74,6 +74,7 @@ int main()
     return 0; 
 
 }
+*/
 
 // delete :
 /*
@@ -90,3 +91,46 @@ index : 2
 input  : a[7] ={1,1,2,3,3,4,5}
 output  :a[5] ={1,2,3,4,5}
 */
+
+#include<iostream> 
+using namespace std;
+int main()
+{
+    int a[50],num,i,ele,pos; 
+    cout<<"enter the size of array"<<endl;
+    cin>>num; 
+
+    for(i=0; i<num; i++)
+    {
+        cin>>a[i]; 
+    }
+
+    cout<<"before deleting  : \n";
+    for(i=0; i<num; i++)
+    {                       //       0    1   2   3    4 
+        cout<<a[i]<<"\n"; // a[4] = {10,  20, 40, 50}
+    }
+    cout<<"enter the  postion of element  you want  to delete : "; 
+    cin>>pos;   //2 
+
+    if (pos <0 || pos >= num)
+    {
+        cout<<"position is out of range"<<endl;
+    } 
+    else 
+    {
+        for(i=pos; i<num-1; i++) // i=4   4< 4
+        {
+            a[i] =a[i+1];   //a[3] =a[4]
+        }
+        num--;
+    }
+    cout<<"after deleting  : \n";
+    for(i=0; i<num; i++)
+    {
+        cout<<a[i]<<"\n";
+    }
+    return 0; 
+}
+
+
