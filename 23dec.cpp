@@ -12,7 +12,7 @@ int  a[5] = {2,4,78,1,67}
  ==> position  
 */
 
-/*
+
 #include <iostream>
 using namespace std;
 int main()
@@ -27,24 +27,24 @@ int main()
     }
     cout<<"array  element is  : "<<endl ;   
     for(i=0; i<num; i++)
-    {
+    {                               // 0 1 2  3  4 
         cout<<a[i]<<"\n";   // a[5] = {2,4,78,1,67}
     }
     // selection  sort  : 
 
-    for(i=0; i<num-1; i++) // 1  1 < 4 
+    for(i=0; i<num-1; i++) //1   1 < 4 
     {
-        int minindex=i; // minindex  =0 
-        for(j=i+1; j<num;j++) // j =4  4 <4 
+        int minindex=i; // minindex  =1
+        for(j=i+1; j<num;j++) //  j= 4   4  < 5 
         {
-            if(a[j] < a[minindex])   // if  a[3] < a[0]  1 <2 
+            if(a[j] < a[minindex])   // a[4] <a[0]   = 67  < 2 
             {
-                    minindex=j;  //   minindex=3
+                    minindex=j;  //  minindex =3 
             }
         }
         temp =a[i];  //  temp=2
-        a[i] =a[minindex];  //   a[0]=a[3]  ==> a[0]=1
-        a[minindex] = temp; //       a[3]=2  // {1,4,78,2,67}
+        a[i] =a[minindex];  //   a[0]=1
+        a[minindex] = temp; //  a[3]=2 // {1,4,78,2,67}
     }
     cout<<"after selection sort  array element is  : "<<endl ;
     for(i=0;i<num; i++)
@@ -53,7 +53,7 @@ int main()
     }
     return 0; 
 }
-*/ 
+ 
 
 // insertion  sort :  
 
@@ -103,7 +103,7 @@ int main()
     */ 
 
 // STL : function   ==> alogorithm 
-
+/*
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -132,3 +132,4 @@ int main()
     }
     return 0; 
 }
+    */

@@ -62,15 +62,15 @@ int main()
     cout<<" array element is  : "<<endl ; 
     for(i=0;i<num;i++)
     {
-        cout<<a[i]<<" "<<endl; // int a[5] = {1, 5, 2,2, 7}
+        cout<<a[i]<<" "<<endl; // int a[5] = {1, 5, 2,20, 7}
     }
     // 2 : index: 2   ==> position  : 3 
     cout<<"enter the  element  you want to search : "<<endl;
-    cin>>ele;  //2
+    cin>>ele;  //7
 
-    for(i=0;i<num; i++) // 3  3   <5 
+    for(i=0;i<num; i++) //  4  4 < 5 
     {
-        if(a[i] ==ele)  // a[3] 7 ==7
+        if(a[i] ==ele)  // a[4]   7  ==7 
         {
             index=i;  // index :3 
             break;
