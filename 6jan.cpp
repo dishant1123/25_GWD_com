@@ -8,7 +8,7 @@ employees management system  :  array function  :
 5. display employee 
 6. exit 
 */
-
+/*
 #include <iostream>
 using namespace std;
 
@@ -137,6 +137,7 @@ void display()
         cout<<"salary : "<<empsalary[i]<<endl ;
     }
 }
+*/
 /*
 
 1. add  :
@@ -148,3 +149,4 @@ void display()
 4. search  ==> id  
 5 .display  ==> 
 */
+
