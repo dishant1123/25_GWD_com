@@ -4,7 +4,7 @@
 2. book  ticket    
     ==> price    ==> glod  silver  platinum
 */
-
+/*
 #include <iostream>
 using  namespace std; 
 #define MAX 100 
@@ -148,7 +148,21 @@ int main()
     return 0; 
 }
 
-
+*/ 
 /*
 5 add  movies   ===> add_movie   ==>5 call 
-*/
+*/ 
+#include <iostream>
+using namespace std;
+main()
+{
+  int a = 10, b, c;
+  b  = a++;
+//   c = a;
+  cout << a << endl;  // 11 
+  cout<<b<<endl;   // 10  
+} 
+
+// a =10 
+ // 10   +12
+//  a++  +  ++a 
