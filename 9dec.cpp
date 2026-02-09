@@ -102,4 +102,5 @@ C++ Program to Print All Disarium Numbers Between 1 and 100
 A number is Disarium if:
 sum of each digit raised to the power of its position = number
 Example: 175 → 1¹ + 7² + 5³ = 175
+
 */

@@ -85,6 +85,7 @@ sum = 1+1296 +81 +256  = 1634
 
 
 */
+/*
 #include <iostream>
 #include <math.h>
 using namespace std;
@@ -113,3 +114,37 @@ int main()
     }
     return 0;
 }
+*/
+
+/*
+C++ Program to Print All Harshad Numbers Between 1 and 100
+
+A Harshad number is divisible by the sum of its digits.
+
+Example:
+18 → digits sum = 1 + 8 = 9
+18 % 9 == 0 → Harshad number
+
+21  => each digit sum  : 3 
+21 % 3 ==0
+
+19  => each digit sum  : 10 
+
+step : 1 ask use to enter the number   45  
+2 : while(num >0)
+3 : r = num %10   // r =4 
+4 : sum =sum +r   // sum = 9  
+5 : num = num /10 // 0   
+6 : if(num % sum ==0)
+
+*/
+
+/*
+C++ Program to Print All Disarium Numbers Between 1 and 100
+
+A number is Disarium if:
+sum of each digit raised to the power of its position = number
+Example: 175 → 1¹ + 7² + 5³ = 175
+
+
+*/
