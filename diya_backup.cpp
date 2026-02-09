@@ -75,3 +75,41 @@ int main()
 }
 */
 
+// amg : 
+/*
+1634 : 4 digit 
+
+pow = 1*1*1*1   6*6*6*6  3*3*3*3    4*4*4*4  
+        1        1296      81         256  
+sum = 1+1296 +81 +256  = 1634 
+
+
+*/
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main()
+{
+    int  num,sum=0,count =0,temp; 
+    cout<<"enter the number of digits : ";
+    cin>>num;  // 1634 
+    temp =num;  // temp =1634 
+
+    while(temp >0) // 0 > 0 
+    {
+        temp = temp /10 ;  // 1/10 
+        count ++;     // 4 
+    }
+    temp =num; 
+    while(temp > 0) // 0 >0 
+    {
+        int r= temp %10 ; // r= 1%10 =1 
+        sum =sum + pow(r,count); // sum =1634
+        temp =  temp /10 ; // 1 /10 
+    }
+    if(sum==num)
+    {
+        cout<<"amg";
+    }
+    return 0;
+}
