@@ -27,12 +27,12 @@ City 2 (Tier 2) → HRA = 0.20 × Basic Pay
 City 3 (Tier 3) → HRA = 0.10 × Basic Pay 
 
 3. Annual Income
-Annual Income = Gross Pay × 12 
+Annual Income = Gross Pay × 12     800000 
 
 4. Income Tax Slabs (AY 2022–23)
 | Annual Income           | Tax                                    |
 | ----------------------- | -------------------------------------- |
-| Up to ₹2,50,000         | 0%                                     |
+| Up to ₹2,50,000         | 0%                                     |  
 | ₹2,50,001 – ₹5,00,000   | 5% of (Income – 2,50,000)              |  // 12500 
 | ₹5,00,001 – ₹7,50,000   | 10% of (Income – 5,00,000) + 12,500    | // 25000 
 | ₹7,50,001 – ₹10,00,000  | 15% of (Income – 7,50,000) + 37,500    | //7500 

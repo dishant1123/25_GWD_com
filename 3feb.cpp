@@ -106,6 +106,7 @@ class vehicle
             cout<<"speed is : "<<speed<<endl;
         }  
 }; 
+
 int main()
 {
     vehicle v1; 
