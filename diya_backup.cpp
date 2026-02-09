@@ -146,5 +146,16 @@ A number is Disarium if:
 sum of each digit raised to the power of its position = number
 Example: 175 → 1¹ + 7² + 5³ = 175
 
+145 : 
+first digit :num /10  == >145/100  ==> 1  
+middle digit : (num /10) %10   ==> 145 /10  = 14 %10  ==>4  
+last digit : num %10 ==> 145 %10 ==>5
+
+result = pow(firstdigit,1) + pow(middledigit,2) + pow(lastdigit,3)
+1234 : 
+first digit : num /1000 ==>1234 /1000 ==> 1 
+second digit: num /100 ==> 12 % 10 ==>2
+third digit : (num /10) % 10 ==> 3 
+last digit : num %10 ==> 1234 %10 ==>4 
 
 */
