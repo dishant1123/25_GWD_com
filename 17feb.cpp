@@ -205,7 +205,7 @@ int  main()
 */
 
 // ex : 4 
-
+/*
 #include <iostream>
 using namespace std;
 class student   // base class
@@ -241,3 +241,4 @@ int main()
     t1.show();
     return 0; 
 }
+*/
