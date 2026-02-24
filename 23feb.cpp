@@ -79,3 +79,12 @@ int main()
     p1.show(); 
     return 0; 
 }
+
+/*
+multiple  :                    vs  multi level  : 
+
+class a                            class a 
+class b                            class b: public a 
+class c: public a, public b        class c : public b 
+
+*/
