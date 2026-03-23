@@ -91,3 +91,12 @@ int  main()
     return 0 ; 
 
 }
+
+/*
+HW :
+1. vector  ==> empty vector  declared
+2. element  add 
+3. remove  element  
+4. update  element . 
+
+*/
